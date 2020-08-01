@@ -1,5 +1,16 @@
 console.log('--- Task 2 ---');
 
+// const calculateEngravingPrice = (message = '', pricePerWord = 0) => {
+// 	let wordsCount = message.split(' ').length;
+// 	let result = wordsCount * pricePerWord;
+
+// 	console.log(wordsCount);
+// 	// console.log(result);
+// 	// console.log(pricePerWord);
+
+// 	return result;
+// };
+
 const calculateEngravingPrice = (message = '', pricePerWord = 0) => message.split(' ').length * pricePerWord;
 
 console.log(calculateEngravingPrice('Proin sociis natoque et magnis parturient montes mus', 10)); // 80
@@ -11,6 +22,8 @@ console.log(calculateEngravingPrice('Donec orci lectus aliquam est magnis', 40))
 console.log(calculateEngravingPrice('Donec orci lectus aliquam est magnis', 20)); // 120
 
 console.log(calculateEngravingPrice('Uno', 100)); // 100
+
+// console.log(pricePerWord);
 
 /* 
 Задача 2-2
