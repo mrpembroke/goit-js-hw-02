@@ -1,7 +1,5 @@
 console.log('--- Task 6 ---');
 
-let result = 0;
-
 function mapArray(array) {
 	let numbers = new Array(array.length);
 	numbers.push(array);
@@ -10,21 +8,16 @@ function mapArray(array) {
 	// console.log(numbers);
 
 	for (let i = 0; i < array.length; i += 1) {
-		// Write code under this line
-		// console.log(array[i] * 10);
 		numbers[i] = array[i] * 10;
-		// console.log(array[i]);
-		// numbers.push(array);
 	}
 
 	return numbers;
-	// console.log(numbers);
 }
 
 console.log(mapArray([ -2, 0, 2 ]));
 // [-20, 0, 20]
 
-//console.log(mapArray([-2.5, 0, 2.5]));
+console.log(mapArray([ -2.5, 0, 2.5 ]));
 // [-25, 0, 25]
 
 // const arr = [ 1, 2, 3, 4, 5 ];
